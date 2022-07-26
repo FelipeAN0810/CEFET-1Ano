@@ -1,0 +1,28 @@
+Quente
+	+Masculino
+	-camisa
+	-calsa
+	-acessório 
+        +Feminino
+	-camisa
+	-calsa
+	-acessório 
+
+Padrao
+	+Masculino
+	-camisa
+	-calsa
+	-acessório 
+	+Feminino
+	-camisa
+	-calsa
+	-acessório 
+frio
+	+Masculino
+	-camisa
+	-calsa
+	-acessório 
+	+Feminino
+	-camisa
+	-calsa
+	-acessório 

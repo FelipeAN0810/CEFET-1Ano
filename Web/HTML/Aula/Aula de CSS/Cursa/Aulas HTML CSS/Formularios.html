@@ -1,0 +1,24 @@
+<!doctype html>
+
+<Html>
+	<head>
+		<title>Trabalhando com formulários</title>
+		<meta charset="UTF-8" \>
+		<link rel="stylesheet" type="text/css" href="CSS-formularios.css">
+	</head>
+
+	<body>
+			<form action="" method="get" >
+				<label for="nome">Nome:</label>
+				<input id = "nome" type="text" placeholder="Digite seu nome" name="nome" />
+				<label for="opção">Você gostou do site?:</label>
+				<input id = "opção" type="radio" name="opção" value="Sim" checked="checked"/>Sim
+				<input id = "opção" type="radio" name="opção" value="Não"/>Não
+				<label for="linguagem">Você quer aprender mais sobre?:</label>
+				<input type="checkbox" name="html"/>HTML
+				<input type="checkbox" name="css"/>CSS
+				<textarea name="msg"></textarea>
+				<input type="submit" value="enviar"/>
+		</form>
+	</body>
+</Html>

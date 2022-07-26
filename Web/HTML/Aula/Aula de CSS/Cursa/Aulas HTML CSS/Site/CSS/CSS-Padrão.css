@@ -1,0 +1,14 @@
+/ *! normalize.css v8.0.1 | Licença MIT | github.com/necolas/normalize.css * /
+
+/ * Documento
+   ==================================================== ======================== * /
+
+/ **
+ * 1. Corrija a altura da linha em todos os navegadores.
+ * 2. Evite ajustes no tamanho da fonte após alterações na orientação no iOS.
+ * /
+
+html {
+  altura da linha: 1,15; / * 1 * /
+  -webkit-text-size-Adjust: 100%; / * 2 * /
+}

@@ -1,0 +1,192 @@
+* {
+    margin: 0px;
+    padding: 0px;
+}
+
+.menu ul li {
+    background-color: black;
+    color: white;
+    float: right;
+    width: 200px;
+    height: 40px;
+    display: inline-block;
+    text-align: center;
+    line-height: 40px;
+    font-size: 25px;
+    font-family: Arial, Helvetica, sans-serif;
+    position: relative;
+}
+
+nav {
+    background-color: black;
+}
+
+.menu ul li:hover {
+    background-color: #7F7F7F;
+    transition: 0.3s;
+}
+
+.menu ul li a {
+    text-decoration: none;
+    color: white;
+}
+
+.menu ul {
+    padding: 0;
+    position: absolute;
+}
+
+.menu ul ul {
+    display: none;
+}
+
+.menu ul li:hover>ul {
+    display: block;
+    transition: 0.3s;
+}
+
+.menu ul ul ul {
+    margin-left: 200px;
+    top: 0px;
+    position: absolute;
+}
+
+header {
+    background-color: #3A4750;
+    margin-top: 0px;
+    margin-bottom: 0px;
+    line-height: 0px;
+}
+
+body {
+    margin-top: 0px;
+    margin-bottom: 0px;
+    margin-left: 0px;
+    margin-right: 0px;
+}
+
+nav,
+.menu,
+ul,
+li {
+    margin-top: 0px;
+    margin-bottom: 0px;
+}
+
+footer {
+    background-color: #3A4750;
+    float: top;
+    font-size: 15px;
+    font-family: Arial, Helvetica, sans-serif;
+    color: rgb(216, 207, 207);
+    text-decoration: none;
+}
+
+.cefet {
+    Color: rgb(145, 145, 255);
+    font-size: medium;
+    position: relative;
+}
+
+.footer {
+    text-align: center;
+}
+
+.sla {
+    display: flex;
+    width: 100%;
+    justify-content: center;
+}
+
+.galeria {
+    margin: 60px auto;
+    width: 600px;
+    height: 770px;
+    position: relative;
+    overflow: hidden;
+}
+
+.foto {
+    opacity: 0;
+    animation-name: animacao;
+    animation-duration: 20s;
+    animation-iteration-count: infinite;
+    object-fit: cover;
+    position: absolute;
+}
+
+@keyframes animacao {
+    25% {
+        opacity: 1;
+        transform: scale(1.1, 1.1);
+    }
+
+    50% {
+        opacity: 0;
+    }
+}
+
+.foto:nth-child(1) {}
+
+.foto:nth-child(2) {
+    animation-delay: 5s;
+}
+
+.foto:nth-child(3) {
+    animation-delay: 10s;
+}
+
+.foto:nth-child(4) {
+    animation-delay: 15s;
+}
+
+.foto:nth-child(5) {
+    animation-delay: 20s;
+}
+
+.galerianime {
+    margin-top: 100px;
+    margin-left: 10px;
+    margin-bottom: 0px;
+    width: 247px;
+    height: 350px;
+    position: relative;
+    overflow: hidden;
+}
+
+.fotoanime {
+    position: absolute;
+    opacity: 0;
+    animation-name: animaca1;
+    animation-duration: 30s;
+    animation-iteration-count: infinite;
+}
+
+@keyframes animaca1 {
+    25% {
+        opacity: 1;
+        transform: scale(1.1, 1.1);
+    }
+
+    50% {
+        opacity: 0;
+    }
+}
+
+.fotoanime:nth-child(1) {}
+
+.fotoanime:nth-child(2) {
+    animation-delay: 5s;
+}
+
+.fotoanime:nth-child(3) {
+    animation-delay: 10s;
+}
+
+.fotoanime:nth-child(4) {
+    animation-delay: 15s;
+}
+
+.imagembaixo {
+    margin-left: 20px;
+}

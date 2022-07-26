@@ -1,0 +1,13 @@
+/* Nesta parte eu formato o inicio*/
+.Inicio{
+
+    width: 2000px;
+	margin: auto;
+	background:#4B0082;
+	overflow: hidden;
+    color: white;
+    font-family:'Times New Roman', Times, serif;
+    cursor: pointer;
+	padding: 10px 20px;
+
+}
